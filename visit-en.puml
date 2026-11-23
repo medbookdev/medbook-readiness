@@ -10,7 +10,7 @@ case (Manage the schedule)
 :Change appointment hours\n[Tested on a test build];
 case (Conduct a visit)
 |Two physicians|
-:Hand off an internal referral\n[Tested on a test build];
+:Return and review a consultation result\n[Tested on a test build];
 |Patient|
 :Read the visit summary\n[Unverified];
 case (Video consultation)

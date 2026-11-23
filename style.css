@@ -5,3 +5,9 @@
 .account-screens figure{margin:0}.account-screens img{width:100%;height:auto;display:block;border:1px solid #c6d6d3;border-radius:12px}
 .account-screens figcaption{margin-top:8px;font-weight:600}
 @media(max-width:620px){.account-screens{grid-template-columns:1fr}.account-screens figure:last-child img{width:min(100%,320px)}}
+
+.consult-screens{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,3vw,36px);align-items:start;max-width:1050px}
+.consult-screens figure{margin:0}
+.consult-screens img{display:block;width:100%;height:auto;border:1px solid #c6d6d3;border-radius:12px}
+.consult-screens figcaption{margin:0 0 .5rem;font-weight:650}
+@media(max-width:640px){.consult-screens{grid-template-columns:minmax(0,1fr)}}

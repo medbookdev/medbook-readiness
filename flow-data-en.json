@@ -71,9 +71,9 @@
         },
         {
           "role": "Two physicians",
-          "label": "Hand off an internal referral",
+          "label": "Return and review a consultation result",
           "state": "stand",
-          "proof": "A second physician confirmed receipt. The treating physician saw it in the original visit. Revoking clinic access removed the referral from the recipient’s view."
+          "proof": "The consultant returned a result. The treating physician read it in the original visit and confirmed review. The consultant saw the acknowledgment."
         },
         {
           "role": "Physician and patient",
