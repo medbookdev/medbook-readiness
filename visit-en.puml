@@ -7,7 +7,7 @@ start
 switch (Choose a task)
 case (Manage the schedule)
 |Physician|
-:Change appointment hours\n[Partial implementation];
+:Change appointment hours\n[Tested on a test build];
 case (Conduct a visit)
 |Physician|
 :Document the visit and refer\n[Partial implementation];

@@ -21,7 +21,7 @@
           "role": "Patient",
           "label": "Request an appointment",
           "state": "stand",
-          "proof": "The backend saved the request. An administrator saw it as pending in the internal workspace."
+          "proof": "The selected clinic saw the pending request. The same physician’s other clinic had an empty queue."
         },
         {
           "role": "Physician",
@@ -33,7 +33,7 @@
           "role": "Patient",
           "label": "Read the decision",
           "state": "stand",
-          "proof": "The patient and administrator refreshed their screens. Both saw the same request marked Accepted. Both staff entry pages returned 404 on the public demo."
+          "proof": "The patient and receptionist saw the accepted booking. When the patient moved it to the other clinic, the same request appeared in its queue awaiting confirmation."
         }
       ],
       "spec": [
@@ -66,8 +66,8 @@
         {
           "role": "Physician",
           "label": "Change appointment hours",
-          "state": "part",
-          "proof": "The release includes a scheduling service and a page for managing slots. A patient still needs to verify the change in the released interface."
+          "state": "stand",
+          "proof": "On the test build, the physician published times at two clinics. The patient chose a clinic and received the room number after confirmation."
         },
         {
           "role": "Physician",
