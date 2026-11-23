@@ -1,9 +1,9 @@
 @startuml
 title Clinical visit
-|Physician|
+|Physician, patient and receptionist|
 start
-|Physician|
-:Open an accepted request\n[Tested on a test build];
+|Physician, patient and receptionist|
+:Start and finish the booked visit\n[Tested on a test build];
 switch (Choose a task)
 case (Manage the schedule)
 |Physician|

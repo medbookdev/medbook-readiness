@@ -31,9 +31,9 @@
         },
         {
           "role": "Patient",
-          "label": "Read the decision",
+          "label": "Read the outcome and book again",
           "state": "stand",
-          "proof": "The patient and receptionist saw the accepted booking. When the patient moved it to the other clinic, the same request appeared in its queue awaiting confirmation."
+          "proof": "The patient saw the actual visit times and booked at a second clinic. The new request had its own number. The first visit remained accessible."
         }
       ],
       "spec": [
@@ -58,10 +58,10 @@
       "goal": "Follow an accepted appointment through to a visit summary the patient can open.",
       "steps": [
         {
-          "role": "Physician",
-          "label": "Open an accepted request",
+          "role": "Physician, patient and receptionist",
+          "label": "Start and finish the booked visit",
           "state": "stand",
-          "proof": "The test covered physician sign-in and request handling on an isolated build with test accounts."
+          "proof": "The physician started and finished the booked visit. The patient and their clinic saw both changes. The other clinic saw no booking."
         },
         {
           "role": "Physician",

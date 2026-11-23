@@ -50,7 +50,7 @@ case (Open demo booking)
 |Physician|
 :Accept an assigned request\n[Tested on a test build];
 |Patient|
-:Read the decision\n[Tested on a test build];
+:Read the outcome and book again\n[Tested on a test build];
 endswitch
 stop
 @enduml
@@ -58,10 +58,10 @@ stop
 @startuml medbook-visit
 skinparam shadowing false
 title Clinical visit
-|Physician|
+|Physician, patient and receptionist|
 start
-|Physician|
-:Open an accepted request\n[Tested on a test build];
+|Physician, patient and receptionist|
+:Start and finish the booked visit\n[Tested on a test build];
 switch (Choose a task)
 case (Manage the schedule)
 |Physician|

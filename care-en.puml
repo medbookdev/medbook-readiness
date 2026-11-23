@@ -14,7 +14,7 @@ case (Open demo booking)
 |Physician|
 :Accept an assigned request\n[Tested on a test build];
 |Patient|
-:Read the decision\n[Tested on a test build];
+:Read the outcome and book again\n[Tested on a test build];
 endswitch
 stop
 @enduml
