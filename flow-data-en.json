@@ -67,7 +67,7 @@
           "role": "Physician",
           "label": "Change appointment hours",
           "state": "stand",
-          "proof": "On the test build, the physician published times at two clinics. The patient chose a clinic and received the room number after confirmation."
+          "proof": "A physician closed one clinic to new bookings. The existing patient and reception saw a notice. Another patient could still book at the second clinic."
         },
         {
           "role": "Physician",
@@ -290,9 +290,9 @@
       "steps": [
         {
           "role": "Front desk",
-          "label": "Offer a newly available slot",
+          "label": "Receive bookings and schedule changes",
           "state": "stand",
-          "proof": "An earlier release was tested with a single offer recipient. Accepting the offer created an appointment request. Queue rules still need to be tested in an actual facility."
+          "proof": "One phone booking reached its physician and front desk. When a patient moved an appointment, the same request appeared at the new clinic."
         },
         {
           "role": "Manager",
