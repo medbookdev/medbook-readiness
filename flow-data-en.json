@@ -21,7 +21,7 @@
           "role": "Patient",
           "label": "Request an appointment",
           "state": "stand",
-          "proof": "The selected clinic saw the pending request. The same physician’s other clinic had an empty queue."
+          "proof": "The selected clinic received one request. When the server response was lost, the patient recovered that booking from their account without submitting it again."
         },
         {
           "role": "Physician",
@@ -152,7 +152,7 @@
     {
       "key": "staff",
       "name": "Clinic shifts",
-      "goal": "From accepting a staff invitation to publishing an approved shift schedule.",
+      "goal": "Two staff members see the manager’s decision and check their shift.",
       "steps": [
         {
           "role": "Staff member",
@@ -176,13 +176,13 @@
           "role": "Manager",
           "label": "Approve the request",
           "state": "stand",
-          "proof": "A separate browser test verified the manager’s decision on another build. The combined, restricted build still keeps the manager interface closed."
+          "proof": "Both employees saw the decision. After a lost response, the manager could distinguish their own decision from one recorded by a second manager."
         },
         {
-          "role": "Facility",
-          "label": "Publish the final schedule",
-          "state": "gap",
-          "proof": "Publication of the schedule and staff access to the latest approved version remain unverified."
+          "role": "Facility and staff",
+          "label": "Check the shift against the published schedule",
+          "state": "stand",
+          "proof": "Both employees saw the version, assigned colleague and later withdrawal. The planning module published the test schedule. The public manager workspace remains closed."
         }
       ],
       "spec": [

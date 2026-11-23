@@ -10,7 +10,7 @@ start
 :Request and accept a swap\n[Tested on a test build];
 |Manager|
 :Approve the request\n[Tested on a test build];
-|Facility|
-:Publish the final schedule\n[Unverified];
+|Facility and staff|
+:Check the shift against the published schedule\n[Tested on a test build];
 stop
 @enduml
