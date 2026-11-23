@@ -25,15 +25,15 @@
         },
         {
           "role": "Physician",
-          "label": "Accept an assigned request",
+          "label": "Respond to a request",
           "state": "stand",
-          "proof": "The assigned physician accepted the request. Another physician could not see it."
+          "proof": "The patient and front desk saw when the physician’s response target passed. After a refusal, the patient read the reason and chose a new time."
         },
         {
           "role": "Patient",
           "label": "Return to manage an appointment",
           "state": "stand",
-          "proof": "From Home, a patient opened their account and moved an appointment to another clinic. The physician confirmed the new time. A second patient took the released slot from their own waiting list."
+          "proof": "After moving clinics, the patient saw both physician confirmations and the transfer in one timeline. Another patient took the released slot from the waiting list."
         }
       ],
       "spec": [

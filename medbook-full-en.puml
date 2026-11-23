@@ -48,7 +48,7 @@ case (Open demo booking)
 |Patient|
 :Request an appointment\n[Tested on a test build];
 |Physician|
-:Accept an assigned request\n[Tested on a test build];
+:Respond to a request\n[Tested on a test build];
 |Patient|
 :Return to manage an appointment\n[Tested on a test build];
 endswitch
