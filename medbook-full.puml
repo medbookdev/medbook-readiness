@@ -1,4 +1,5 @@
 @startuml medbook-overview
+!pragma layout smetana
 skinparam shadowing false
 top to bottom direction
 title Карта процессов Medbook
