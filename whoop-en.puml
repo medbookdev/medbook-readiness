@@ -1,0 +1,14 @@
+@startuml
+title Personal WHOOP data
+|Patient|
+start
+|Patient|
+:Connect a WHOOP account\n[Live on the demo];
+|Server|
+:Save measurements\n[Live on the demo];
+|Patient|
+:View only personal data\n[Tested on a test build];
+|AI|
+:Explain trends\n[Disabled];
+stop
+@enduml

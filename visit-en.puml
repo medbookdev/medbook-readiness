@@ -1,0 +1,21 @@
+@startuml
+title Clinical visit
+|Physician|
+start
+|Physician|
+:Open an accepted request\n[Tested on a test build];
+switch (Choose a task)
+case (Manage the schedule)
+|Physician|
+:Change appointment hours\n[Partial implementation];
+case (Conduct a visit)
+|Physician|
+:Document the visit and refer\n[Partial implementation];
+|Patient|
+:Read the visit summary\n[Unverified];
+case (Video consultation)
+|Physician and patient|
+:Hold a video visit\n[Partial implementation];
+endswitch
+stop
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+title Clinic shifts
+|Staff member|
+start
+|Staff member|
+:Accept an invitation\n[Tested on a test build];
+|Staff member|
+:View an assigned shift\n[Tested on a test build];
+|Two staff members|
+:Request and accept a swap\n[Tested on a test build];
+|Manager|
+:Approve the request\n[Tested on a test build];
+|Facility|
+:Publish the final schedule\n[Unverified];
+stop
+@enduml

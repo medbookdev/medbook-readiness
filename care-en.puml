@@ -1,0 +1,20 @@
+@startuml
+title Find and book care
+|Patient|
+start
+switch (How will the patient start?)
+case (Browse the directory)
+|Patient|
+:Browse the directories\n[Live on the demo];
+case (Open demo booking)
+|Patient|
+:Choose a time\n[Demo data];
+|Patient|
+:Request an appointment\n[Tested on a test build];
+|Physician|
+:Accept an assigned request\n[Tested on a test build];
+|Patient|
+:Read the decision\n[Tested on a test build];
+endswitch
+stop
+@enduml

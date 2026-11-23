@@ -1,0 +1,14 @@
+@startuml
+title Laboratory
+|Physician|
+start
+|Physician|
+:Order a test\n[Partial implementation];
+|Lab technician|
+:Register a specimen\n[Partial implementation];
+|Lab technician|
+:Review the worklist and result\n[Partial implementation];
+|Physician|
+:Receive the released report\n[Unverified];
+stop
+@enduml

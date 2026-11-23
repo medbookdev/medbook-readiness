@@ -1,0 +1,397 @@
+﻿ID,Domain ID,Domain,Requirement,Development evidence,Evidence report status,Release comparison on 23 November 2026
+CAP-01-01,DOM-01,Identity and patient matching,Register a provisional patient,Included in an earlier build,Under review,Outside this sample
+CAP-01-02,DOM-01,Identity and patient matching,Claim an existing chart,Development evidence found,Under review,Outside this sample
+CAP-01-03,DOM-01,Identity and patient matching,Merge duplicate records,Development evidence found,Under review,Outside this sample
+CAP-01-04,DOM-01,Identity and patient matching,Correct a mistaken merge,Development evidence found,Under review,Outside this sample
+CAP-01-05,DOM-01,Identity and patient matching,Manage demographics and contacts,Development evidence found,Under review,Outside this sample
+CAP-01-06,DOM-01,Identity and patient matching,Reconcile an unknown emergency identity,Development evidence found,Under review,Outside this sample
+CAP-02-01,DOM-02,"Login, sessions and representation",Register and verify a digital account,Development evidence found,Under review,Outside this sample
+CAP-02-02,DOM-02,"Login, sessions and representation",Enroll login factors and recover access,Development evidence found,Under review,Outside this sample
+CAP-02-03,DOM-02,"Login, sessions and representation",Invite and offboard staff,Development evidence found,Under review,Outside this sample
+CAP-02-04,DOM-02,"Login, sessions and representation",Manage devices and sessions,Implementation unverified,Under review,Outside this sample
+CAP-02-05,DOM-02,"Login, sessions and representation",Delegate patient representation,Development evidence found,Under review,Outside this sample
+CAP-02-06,DOM-02,"Login, sessions and representation",Review guardianship/capacity transitions,Development evidence found,Under review,Outside this sample
+CAP-03-01,DOM-03,"Consent, privacy and information rights",Capture purpose-specific consent,Development evidence found,Under review,Outside this sample
+CAP-03-02,DOM-03,"Consent, privacy and information rights",Withdraw or amend consent,Development evidence found,Under review,Outside this sample
+CAP-03-03,DOM-03,"Consent, privacy and information rights",Apply sensitive-record segmentation,Development evidence found,Under review,Outside this sample
+CAP-03-04,DOM-03,"Consent, privacy and information rights",Provide patient access/export,Development evidence found,Under review,Outside this sample
+CAP-03-05,DOM-03,"Consent, privacy and information rights",Handle correction and deletion requests,Included in an earlier build,Under review,Outside this sample
+CAP-03-06,DOM-03,"Consent, privacy and information rights",Review emergency access,Included in an earlier build,Under review,Outside this sample
+CAP-04-01,DOM-04,"Institutions, departments and professional directory",Model organizations and facilities,Development evidence found,Under review,Outside this sample
+CAP-04-02,DOM-04,"Institutions, departments and professional directory",Configure departments and services,Development evidence found,Under review,Outside this sample
+CAP-04-03,DOM-04,"Institutions, departments and professional directory","Manage rooms, beds and equipment",Development evidence found,Under review,Outside this sample
+CAP-04-04,DOM-04,"Institutions, departments and professional directory",Verify licenses and clinical privileges,Development evidence found,Under review,Outside this sample
+CAP-04-05,DOM-04,"Institutions, departments and professional directory",Manage temporary assignments,Development evidence found,Under review,Outside this sample
+CAP-04-06,DOM-04,"Institutions, departments and professional directory",Publish provider affiliations,Development evidence found,Under review,Outside this sample
+CAP-05-01,DOM-05,"Enquiry, intake and scheduling",Capture enquiries across channels,Development evidence found,Under review,Outside this sample
+CAP-05-02,DOM-05,"Enquiry, intake and scheduling",Collect pre-visit forms,Implementation unverified,Under review,Outside this sample
+CAP-05-03,DOM-05,"Enquiry, intake and scheduling",Book provider/room/equipment together,Development evidence found,Under review,Outside this sample
+CAP-05-04,DOM-05,"Enquiry, intake and scheduling",Manage waitlists and released slots,Included in an earlier build,Under review,Outside this sample
+CAP-05-05,DOM-05,"Enquiry, intake and scheduling",Reschedule and cancel appointments,Development evidence found,Under review,Outside this sample
+CAP-05-06,DOM-05,"Enquiry, intake and scheduling",Plan group and recurring care,Development evidence found,Under review,Outside this sample
+CAP-06-01,DOM-06,"Queues, referrals and care navigation",Check in and route patients,Implementation unverified,Under review,Outside this sample
+CAP-06-02,DOM-06,"Queues, referrals and care navigation",Prioritize queues and urgent insertion,Development evidence found,Under review,Outside this sample
+CAP-06-03,DOM-06,"Queues, referrals and care navigation",Create internal and external referrals,Development evidence found,Under review,Outside this sample
+CAP-06-04,DOM-06,"Queues, referrals and care navigation",Track referral closure,Development evidence found,Under review,Outside this sample
+CAP-06-05,DOM-06,"Queues, referrals and care navigation",Coordinate multi-service pathways,Development evidence found,Under review,Outside this sample
+CAP-06-06,DOM-06,"Queues, referrals and care navigation",Arrange accessible transport/interpreters,Development evidence found,Under review,Outside this sample
+CAP-07-01,DOM-07,"Encounters, admission, transfer and discharge",Open outpatient/home/virtual encounters,Development evidence found,Under review,Outside this sample
+CAP-07-02,DOM-07,"Encounters, admission, transfer and discharge",Admit and assign a bed,Development evidence found,Under review,Outside this sample
+CAP-07-03,DOM-07,"Encounters, admission, transfer and discharge",Transfer care or location,Development evidence found,Under review,Outside this sample
+CAP-07-04,DOM-07,"Encounters, admission, transfer and discharge",Reverse an erroneous admission,Development evidence found,Under review,Outside this sample
+CAP-07-05,DOM-07,"Encounters, admission, transfer and discharge",Record refusal or self-discharge,Development evidence found,Under review,Outside this sample
+CAP-07-06,DOM-07,"Encounters, admission, transfer and discharge",Discharge with continuity actions,Development evidence found,Under review,Outside this sample
+CAP-08-01,DOM-08,Clinical documentation and longitudinal record,Create structured and narrative notes,Development evidence found,Under review,Outside this sample
+CAP-08-02,DOM-08,Clinical documentation and longitudinal record,Capture observations and measurements,Development evidence found,Under review,Outside this sample
+CAP-08-03,DOM-08,Clinical documentation and longitudinal record,"Maintain problems, allergies and history",Development evidence found,Under review,Outside this sample
+CAP-08-04,DOM-08,Clinical documentation and longitudinal record,"Sign, co-sign and amend records",Development evidence found,Under review,Outside this sample
+CAP-08-05,DOM-08,Clinical documentation and longitudinal record,Coordinate plans and multidisciplinary review,Development evidence found,Under review,Outside this sample
+CAP-08-06,DOM-08,Clinical documentation and longitudinal record,Attach and classify documents/media,Development evidence found,Under review,Outside this sample
+CAP-09-01,DOM-09,Orders and clinical decision support,Order investigations/procedures/consultations,Development evidence found,Under review,Outside this sample
+CAP-09-02,DOM-09,Orders and clinical decision support,Use versioned order sets,Development evidence found,Under review,Outside this sample
+CAP-09-03,DOM-09,Orders and clinical decision support,Schedule recurring and conditional orders,Development evidence found,Under review,Outside this sample
+CAP-09-04,DOM-09,Orders and clinical decision support,"Hold, cancel and replace orders",Development evidence found,Under review,Outside this sample
+CAP-09-05,DOM-09,Orders and clinical decision support,Evaluate clinical checks,Development evidence found,Under review,Outside this sample
+CAP-09-06,DOM-09,Orders and clinical decision support,Track acknowledgement and execution,Development evidence found,Under review,Outside this sample
+CAP-10-01,DOM-10,Prescribing and medication reconciliation,Reconcile home and institutional medicines,Development evidence found,Under review,Outside this sample
+CAP-10-02,DOM-10,Prescribing and medication reconciliation,Draft and authorize prescriptions,Development evidence found,Under review,Outside this sample
+CAP-10-03,DOM-10,Prescribing and medication reconciliation,Represent dose and administration instructions,Development evidence found,Under review,Outside this sample
+CAP-10-04,DOM-10,Prescribing and medication reconciliation,Review contraindication/interaction checks,Development evidence found,Under review,Outside this sample
+CAP-10-05,DOM-10,Prescribing and medication reconciliation,Manage renewals and substitutions,Implementation unverified,Under review,Outside this sample
+CAP-10-06,DOM-10,Prescribing and medication reconciliation,Send e-prescriptions and reconcile status,Development evidence found,Under review,Outside this sample
+CAP-11-01,DOM-11,"Dispensing, administration and controlled medicines",Verify and dispense medication,Development evidence found,Under review,Outside this sample
+CAP-11-02,DOM-11,"Dispensing, administration and controlled medicines",Prepare compounded or infusion products,Development evidence found,Under review,Outside this sample
+CAP-11-03,DOM-11,"Dispensing, administration and controlled medicines",Perform bedside identity/barcode checks,Development evidence found,Under review,Outside this sample
+CAP-11-04,DOM-11,"Dispensing, administration and controlled medicines",Document administration or non-administration,Development evidence found,Under review,Outside this sample
+CAP-11-05,DOM-11,"Dispensing, administration and controlled medicines",Manage controlled-substance custody,Development evidence found,Under review,Outside this sample
+CAP-11-06,DOM-11,"Dispensing, administration and controlled medicines",Reconcile partial doses and returns,Development evidence found,Under review,Outside this sample
+CAP-12-01,DOM-12,Laboratory specimen lifecycle,Request and prepare specimen collection,Development evidence found,Accepted,File absent at the specified path
+CAP-12-02,DOM-12,Laboratory specimen lifecycle,Collect and label specimens,Development evidence found,Accepted,File absent at the specified path
+CAP-12-03,DOM-12,Laboratory specimen lifecycle,Track transport and custody,Development evidence found,Accepted,File absent at the specified path
+CAP-12-04,DOM-12,Laboratory specimen lifecycle,"Receive, reject or recollect specimens",Development evidence found,Accepted,File absent at the specified path
+CAP-12-05,DOM-12,Laboratory specimen lifecycle,Create aliquots and route reference tests,Development evidence found,Accepted,File absent at the specified path
+CAP-12-06,DOM-12,Laboratory specimen lifecycle,Dispose or retain specimens,Development evidence found,Accepted,File absent at the specified path
+CAP-13-01,DOM-13,"Laboratory processing, quality and results",Build worklists and analyzer messages,Module present in release,Accepted,File contents matched
+CAP-13-02,DOM-13,"Laboratory processing, quality and results",Run quality control and calibration,Development evidence found,Accepted,File absent at the specified path
+CAP-13-03,DOM-13,"Laboratory processing, quality and results",Validate quantitative/qualitative results,Module present in release,Accepted,File contents matched
+CAP-13-04,DOM-13,"Laboratory processing, quality and results",Release and amend reports,Development evidence found,Accepted,File absent at the specified path
+CAP-13-05,DOM-13,"Laboratory processing, quality and results",Escalate critical results,Development evidence found,Accepted,File absent at the specified path
+CAP-13-06,DOM-13,"Laboratory processing, quality and results",Reconcile delayed/duplicate results,Development evidence found,Accepted,File absent at the specified path
+CAP-14-01,DOM-14,Microbiology and antimicrobial stewardship,Track culture and organism workflows,Development evidence found,Accepted,File absent at the specified path
+CAP-14-02,DOM-14,Microbiology and antimicrobial stewardship,Record susceptibility panels,Development evidence found,Accepted,File absent at the specified path
+CAP-14-03,DOM-14,Microbiology and antimicrobial stewardship,Handle contamination and mixed cultures,Development evidence found,Accepted,File absent at the specified path
+CAP-14-04,DOM-14,Microbiology and antimicrobial stewardship,Communicate preliminary urgent findings,Development evidence found,Accepted,File absent at the specified path
+CAP-14-05,DOM-14,Microbiology and antimicrobial stewardship,Support stewardship review,Development evidence found,Accepted,File absent at the specified path
+CAP-14-06,DOM-14,Microbiology and antimicrobial stewardship,Report resistance surveillance,Development evidence found,Accepted,File absent at the specified path
+CAP-15-01,DOM-15,"Imaging, PACS and radiology",Schedule modality-specific studies,Development evidence found,Accepted,File absent at the specified path
+CAP-15-02,DOM-15,"Imaging, PACS and radiology",Manage modality worklists and identities,Development evidence found,Accepted,File absent at the specified path
+CAP-15-03,DOM-15,"Imaging, PACS and radiology",Store and retrieve imaging studies,Development evidence found,Accepted,File absent at the specified path
+CAP-15-04,DOM-15,"Imaging, PACS and radiology",Read images and compare priors,Development evidence found,Accepted,File absent at the specified path
+CAP-15-05,DOM-15,"Imaging, PACS and radiology",Create and amend radiology reports,Development evidence found,Accepted,File absent at the specified path
+CAP-15-06,DOM-15,"Imaging, PACS and radiology","Track exposure, contrast and reactions",Development evidence found,Accepted,File absent at the specified path
+CAP-16-01,DOM-16,Digital pathology and cytology,Accession tissues and cytology,Development evidence found,Accepted,File absent at the specified path
+CAP-16-02,DOM-16,Digital pathology and cytology,"Track grossing, blocks and slides",Development evidence found,Accepted,File absent at the specified path
+CAP-16-03,DOM-16,Digital pathology and cytology,"Manage stains, IHC and molecular requests",Development evidence found,Accepted,File absent at the specified path
+CAP-16-04,DOM-16,Digital pathology and cytology,Store whole-slide imaging and annotations,Development evidence found,Accepted,File absent at the specified path
+CAP-16-05,DOM-16,Digital pathology and cytology,Conduct consultations and second readings,Development evidence found,Accepted,File absent at the specified path
+CAP-16-06,DOM-16,Digital pathology and cytology,Release structured pathology reports,Development evidence found,Accepted,File absent at the specified path
+CAP-17-01,DOM-17,Ward nursing and inpatient operations,Assign patients and tasks by shift,Development evidence found,Accepted,File absent at the specified path
+CAP-17-02,DOM-17,Ward nursing and inpatient operations,Record bedside observations and scores,Development evidence found,Accepted,File absent at the specified path
+CAP-17-03,DOM-17,Ward nursing and inpatient operations,Manage fluid balance and care delivery,Development evidence found,Accepted,File absent at the specified path
+CAP-17-04,DOM-17,Ward nursing and inpatient operations,Perform handover and ward rounds,Development evidence found,Accepted,File absent at the specified path
+CAP-17-05,DOM-17,Ward nursing and inpatient operations,Prevent and report falls/pressure injury,Development evidence found,Accepted,File absent at the specified path
+CAP-17-06,DOM-17,Ward nursing and inpatient operations,"Coordinate meals, visitors and isolation",Development evidence found,Accepted,File absent at the specified path
+CAP-18-01,DOM-18,"Emergency, ambulance and disaster response",Receive and classify emergency calls,Development evidence found,Accepted,File absent at the specified path
+CAP-18-02,DOM-18,"Emergency, ambulance and disaster response",Dispatch crews and transport,Development evidence found,Accepted,File absent at the specified path
+CAP-18-03,DOM-18,"Emergency, ambulance and disaster response",Maintain prehospital records and handoff,Development evidence found,Accepted,File absent at the specified path
+CAP-18-04,DOM-18,"Emergency, ambulance and disaster response",Manage emergency-department triage,Development evidence found,Accepted,File absent at the specified path
+CAP-18-05,DOM-18,"Emergency, ambulance and disaster response",Coordinate resuscitation documentation,Development evidence found,Accepted,File absent at the specified path
+CAP-18-06,DOM-18,"Emergency, ambulance and disaster response",Activate mass-casualty/downtime mode,Development evidence found,Accepted,File absent at the specified path
+CAP-19-01,DOM-19,"Surgery, anesthesia and sterile services",Plan operating lists and resources,Development evidence found,Accepted,File absent at the specified path
+CAP-19-02,DOM-19,"Surgery, anesthesia and sterile services",Complete preoperative assessment and consent,Development evidence found,Accepted,File absent at the specified path
+CAP-19-03,DOM-19,"Surgery, anesthesia and sterile services",Perform checklist and time-out,Development evidence found,Accepted,File absent at the specified path
+CAP-19-04,DOM-19,"Surgery, anesthesia and sterile services",Record anesthesia and intraoperative events,Development evidence found,Accepted,File absent at the specified path
+CAP-19-05,DOM-19,"Surgery, anesthesia and sterile services","Track instruments, swabs and implants",Development evidence found,Accepted,File absent at the specified path
+CAP-19-06,DOM-19,"Surgery, anesthesia and sterile services",Manage recovery and postoperative transfer,Development evidence found,Accepted,File absent at the specified path
+CAP-20-01,DOM-20,Intensive and high-dependency care,Maintain high-frequency observations,Development evidence found,Accepted,File absent at the specified path
+CAP-20-02,DOM-20,Intensive and high-dependency care,Document organ support and devices,Development evidence found,Accepted,File absent at the specified path
+CAP-20-03,DOM-20,Intensive and high-dependency care,Manage infusions and titration documentation,Development evidence found,Accepted,File absent at the specified path
+CAP-20-04,DOM-20,Intensive and high-dependency care,Coordinate rounds and daily goals,Development evidence found,Accepted,File absent at the specified path
+CAP-20-05,DOM-20,Intensive and high-dependency care,Track severity and deterioration assessments,Development evidence found,Accepted,File absent at the specified path
+CAP-20-06,DOM-20,Intensive and high-dependency care,Review treatment limits and family communication,Development evidence found,Accepted,File absent at the specified path
+CAP-21-01,DOM-21,Oncology and radiotherapy,Plan systemic therapy regimens,Development evidence found,Accepted,File absent at the specified path
+CAP-21-02,DOM-21,Oncology and radiotherapy,Track cumulative exposure and toxicities,Development evidence found,Accepted,File absent at the specified path
+CAP-21-03,DOM-21,Oncology and radiotherapy,Coordinate multidisciplinary tumor boards,Development evidence found,Accepted,File absent at the specified path
+CAP-21-04,DOM-21,Oncology and radiotherapy,Manage radiation plans and fractions,Development evidence found,Accepted,File absent at the specified path
+CAP-21-05,DOM-21,Oncology and radiotherapy,Track treatment interruptions and survivorship,Development evidence found,Accepted,File absent at the specified path
+CAP-21-06,DOM-21,Oncology and radiotherapy,Coordinate supportive/palliative care,Development evidence found,Accepted,File absent at the specified path
+CAP-22-01,DOM-22,Cardiology and vascular services,Manage ECG/Holter acquisition and reports,Development evidence found,Accepted,File absent at the specified path
+CAP-22-02,DOM-22,Cardiology and vascular services,Document echocardiography and vascular studies,Development evidence found,Accepted,File absent at the specified path
+CAP-22-03,DOM-22,Cardiology and vascular services,Coordinate catheterization workflows,Development evidence found,Accepted,File absent at the specified path
+CAP-22-04,DOM-22,Cardiology and vascular services,Manage implanted cardiac-device follow-up,Development evidence found,Accepted,File absent at the specified path
+CAP-22-05,DOM-22,Cardiology and vascular services,Coordinate cardiac rehabilitation,Development evidence found,Accepted,File absent at the specified path
+CAP-22-06,DOM-22,Cardiology and vascular services,Maintain longitudinal cardiovascular plans,Development evidence found,Accepted,File absent at the specified path
+CAP-23-01,DOM-23,Neurology and neurospecialist services,Manage EEG and neurophysiology studies,Development evidence found,Accepted,File absent at the specified path
+CAP-23-02,DOM-23,Neurology and neurospecialist services,Coordinate stroke pathways,Development evidence found,Accepted,File absent at the specified path
+CAP-23-03,DOM-23,Neurology and neurospecialist services,Track seizures and neurological symptoms,Development evidence found,Accepted,File absent at the specified path
+CAP-23-04,DOM-23,Neurology and neurospecialist services,Manage neurocognitive assessments,Development evidence found,Accepted,File absent at the specified path
+CAP-23-05,DOM-23,Neurology and neurospecialist services,Coordinate chronic neurological care,Development evidence found,Accepted,File absent at the specified path
+CAP-23-06,DOM-23,Neurology and neurospecialist services,Support neurosurgical follow-up,Development evidence found,Accepted,File absent at the specified path
+CAP-24-01,DOM-24,"Respiratory, sleep and allergy services",Manage pulmonary-function testing,Development evidence found,Accepted,File absent at the specified path
+CAP-24-02,DOM-24,"Respiratory, sleep and allergy services",Coordinate sleep studies and reports,Development evidence found,Accepted,File absent at the specified path
+CAP-24-03,DOM-24,"Respiratory, sleep and allergy services",Manage home respiratory support follow-up,Development evidence found,Accepted,File absent at the specified path
+CAP-24-04,DOM-24,"Respiratory, sleep and allergy services",Track allergy assessments and challenges,Development evidence found,Accepted,File absent at the specified path
+CAP-24-05,DOM-24,"Respiratory, sleep and allergy services",Coordinate tuberculosis/respiratory follow-up,Development evidence found,Accepted,File absent at the specified path
+CAP-24-06,DOM-24,"Respiratory, sleep and allergy services",Track patient-reported respiratory outcomes,Development evidence found,Accepted,File absent at the specified path
+CAP-25-01,DOM-25,Renal and dialysis services,Plan dialysis sessions and resources,Development evidence found,Accepted,File absent at the specified path
+CAP-25-02,DOM-25,Renal and dialysis services,Document access and treatment observations,Development evidence found,Accepted,File absent at the specified path
+CAP-25-03,DOM-25,Renal and dialysis services,Manage dialysis prescriptions and changes,Development evidence found,Accepted,File absent at the specified path
+CAP-25-04,DOM-25,Renal and dialysis services,Track laboratory and fluid-related review,Development evidence found,Accepted,File absent at the specified path
+CAP-25-05,DOM-25,Renal and dialysis services,Coordinate equipment/water quality checks,Development evidence found,Accepted,File absent at the specified path
+CAP-25-06,DOM-25,Renal and dialysis services,Support transplant evaluation and follow-up,Development evidence found,Accepted,File absent at the specified path
+CAP-26-01,DOM-26,"Gastroenterology, endoscopy and nutrition",Plan endoscopy and preparation,Development evidence found,Accepted,File absent at the specified path
+CAP-26-02,DOM-26,"Gastroenterology, endoscopy and nutrition",Capture procedure findings and media,Development evidence found,Accepted,File absent at the specified path
+CAP-26-03,DOM-26,"Gastroenterology, endoscopy and nutrition",Track scope reprocessing and traceability,Development evidence found,Accepted,File absent at the specified path
+CAP-26-04,DOM-26,"Gastroenterology, endoscopy and nutrition",Manage nutritional assessments and diets,Development evidence found,Accepted,File absent at the specified path
+CAP-26-05,DOM-26,"Gastroenterology, endoscopy and nutrition",Coordinate enteral/parenteral support records,Development evidence found,Accepted,File absent at the specified path
+CAP-26-06,DOM-26,"Gastroenterology, endoscopy and nutrition",Plan follow-up for abnormal findings,Development evidence found,Accepted,File absent at the specified path
+CAP-27-01,DOM-27,Obstetrics and maternity,Maintain pregnancy episodes and antenatal plans,Development evidence found,Accepted,File absent at the specified path
+CAP-27-02,DOM-27,Obstetrics and maternity,Record labor and delivery observations,Development evidence found,Accepted,File absent at the specified path
+CAP-27-03,DOM-27,Obstetrics and maternity,Coordinate maternal-fetal investigations,Development evidence found,Accepted,File absent at the specified path
+CAP-27-04,DOM-27,Obstetrics and maternity,Document delivery and newborn linkage,Development evidence found,Accepted,File absent at the specified path
+CAP-27-05,DOM-27,Obstetrics and maternity,Manage postpartum care and follow-up,Development evidence found,Accepted,File absent at the specified path
+CAP-27-06,DOM-27,Obstetrics and maternity,Report maternity outcomes and incidents,Development evidence found,Accepted,File absent at the specified path
+CAP-28-01,DOM-28,"Pediatrics, neonatology and developmental care",Register newborns and resolve temporary IDs,Development evidence found,Accepted,File absent at the specified path
+CAP-28-02,DOM-28,"Pediatrics, neonatology and developmental care",Track growth and development,Development evidence found,Accepted,File absent at the specified path
+CAP-28-03,DOM-28,"Pediatrics, neonatology and developmental care",Manage age/weight-dependent clinical inputs,Development evidence found,Accepted,File absent at the specified path
+CAP-28-04,DOM-28,"Pediatrics, neonatology and developmental care",Coordinate immunization and catch-up review,Development evidence found,Accepted,File absent at the specified path
+CAP-28-05,DOM-28,"Pediatrics, neonatology and developmental care",Manage pediatric consent/confidentiality,Development evidence found,Accepted,File absent at the specified path
+CAP-28-06,DOM-28,"Pediatrics, neonatology and developmental care",Coordinate neonatal follow-up and feeding,Development evidence found,Accepted,File absent at the specified path
+CAP-29-01,DOM-29,"Fertility, reproductive and sexual health",Plan fertility treatment cycles,Development evidence found,Accepted,File absent at the specified path
+CAP-29-02,DOM-29,"Fertility, reproductive and sexual health","Track gametes, embryos and cryostorage",Development evidence found,Accepted,File absent at the specified path
+CAP-29-03,DOM-29,"Fertility, reproductive and sexual health",Manage disposition and consent expiry,Implementation unverified,Accepted,No comparison file
+CAP-29-04,DOM-29,"Fertility, reproductive and sexual health",Coordinate reproductive procedures and outcomes,Development evidence found,Accepted,File absent at the specified path
+CAP-29-05,DOM-29,"Fertility, reproductive and sexual health",Provide confidential sexual-health workflows,Development evidence found,Accepted,File absent at the specified path
+CAP-29-06,DOM-29,"Fertility, reproductive and sexual health",Manage family planning and reproductive history,Development evidence found,Accepted,File absent at the specified path
+CAP-30-01,DOM-30,Mental health and substance-use care,Document assessments and longitudinal plans,Development evidence found,Accepted,File absent at the specified path
+CAP-30-02,DOM-30,Mental health and substance-use care,Coordinate crisis and safety plans,Development evidence found,Accepted,File absent at the specified path
+CAP-30-03,DOM-30,Mental health and substance-use care,Manage group therapy and attendance,Development evidence found,Accepted,File absent at the specified path
+CAP-30-04,DOM-30,Mental health and substance-use care,Track involuntary-care processes where lawful,Development evidence found,Accepted,File absent at the specified path
+CAP-30-05,DOM-30,Mental health and substance-use care,Coordinate substance-use treatment,Development evidence found,Accepted,File absent at the specified path
+CAP-30-06,DOM-30,Mental health and substance-use care,Support supported decision-making,Development evidence found,Accepted,File absent at the specified path
+CAP-31-01,DOM-31,"Dental, maxillofacial and oral health",Maintain tooth/surface charting,Development evidence found,Accepted,File absent at the specified path
+CAP-31-02,DOM-31,"Dental, maxillofacial and oral health",Plan multi-visit dental treatment,Development evidence found,Accepted,File absent at the specified path
+CAP-31-03,DOM-31,"Dental, maxillofacial and oral health",Link dental imaging and findings,Development evidence found,Accepted,File absent at the specified path
+CAP-31-04,DOM-31,"Dental, maxillofacial and oral health",Manage prosthetics and laboratory orders,Implementation unverified,Accepted,No comparison file
+CAP-31-05,DOM-31,"Dental, maxillofacial and oral health",Track orthodontic and implant care,Development evidence found,Accepted,File absent at the specified path
+CAP-31-06,DOM-31,"Dental, maxillofacial and oral health",Manage sedation and infection-control records,Development evidence found,Accepted,File absent at the specified path
+CAP-32-01,DOM-32,"Ophthalmology, ENT and audiology",Record eye-specific examinations,Implementation unverified,Accepted,No comparison file
+CAP-32-02,DOM-32,"Ophthalmology, ENT and audiology",Manage vision prescriptions and fitting,Development evidence found,Accepted,File absent at the specified path
+CAP-32-03,DOM-32,"Ophthalmology, ENT and audiology",Track ophthalmic imaging and progression,Development evidence found,Accepted,File absent at the specified path
+CAP-32-04,DOM-32,"Ophthalmology, ENT and audiology",Manage ENT endoscopy and procedures,Development evidence found,Accepted,File absent at the specified path
+CAP-32-05,DOM-32,"Ophthalmology, ENT and audiology",Record audiology and hearing-device fitting,Development evidence found,Accepted,File absent at the specified path
+CAP-32-06,DOM-32,"Ophthalmology, ENT and audiology",Coordinate specialty surgery and follow-up,Development evidence found,Accepted,File absent at the specified path
+CAP-33-01,DOM-33,"Dermatology, wounds and reconstructive care",Capture longitudinal skin/wound images,Development evidence found,Accepted,File absent at the specified path
+CAP-33-02,DOM-33,"Dermatology, wounds and reconstructive care",Measure and classify wounds,Implementation unverified,Accepted,No comparison file
+CAP-33-03,DOM-33,"Dermatology, wounds and reconstructive care",Plan dressing and wound-care tasks,Development evidence found,Accepted,File absent at the specified path
+CAP-33-04,DOM-33,"Dermatology, wounds and reconstructive care",Track dermatology biopsies and follow-up,Development evidence found,Accepted,File absent at the specified path
+CAP-33-05,DOM-33,"Dermatology, wounds and reconstructive care",Manage burns and reconstructive episodes,Development evidence found,Accepted,File absent at the specified path
+CAP-33-06,DOM-33,"Dermatology, wounds and reconstructive care",Coordinate cosmetic-procedure consent,Development evidence found,Accepted,File absent at the specified path
+CAP-34-01,DOM-34,"Rehabilitation, disability and assistive technology",Assess functional status and goals,Development evidence found,Blocked,Outside this sample
+CAP-34-02,DOM-34,"Rehabilitation, disability and assistive technology",Plan multidisciplinary therapy,Development evidence found,Blocked,Outside this sample
+CAP-34-03,DOM-34,"Rehabilitation, disability and assistive technology",Track therapy delivery and outcomes,Development evidence found,Blocked,Outside this sample
+CAP-34-04,DOM-34,"Rehabilitation, disability and assistive technology",Prescribe and fit assistive devices,Development evidence found,Blocked,Outside this sample
+CAP-34-05,DOM-34,"Rehabilitation, disability and assistive technology",Coordinate home/workplace adaptations,Development evidence found,Blocked,Outside this sample
+CAP-34-06,DOM-34,"Rehabilitation, disability and assistive technology",Support long-term disability care,Development evidence found,Blocked,Outside this sample
+CAP-35-01,DOM-35,"Geriatrics, long-term and palliative care",Assess frailty and functional support needs,Development evidence found,Blocked,Outside this sample
+CAP-35-02,DOM-35,"Geriatrics, long-term and palliative care",Coordinate long-term care plans,Development evidence found,Blocked,Outside this sample
+CAP-35-03,DOM-35,"Geriatrics, long-term and palliative care",Record advance care preferences/directives,Development evidence found,Blocked,Outside this sample
+CAP-35-04,DOM-35,"Geriatrics, long-term and palliative care",Manage palliative symptom documentation,Development evidence found,Blocked,Outside this sample
+CAP-35-05,DOM-35,"Geriatrics, long-term and palliative care",Coordinate family/caregiver support,Development evidence found,Blocked,Outside this sample
+CAP-35-06,DOM-35,"Geriatrics, long-term and palliative care",Manage end-of-life and bereavement workflows,Development evidence found,Blocked,Outside this sample
+CAP-36-01,DOM-36,Home care and hospital-at-home,Assess home-service suitability,Development evidence found,Blocked,Outside this sample
+CAP-36-02,DOM-36,Home care and hospital-at-home,Plan recurring home visits,Development evidence found,Blocked,Outside this sample
+CAP-36-03,DOM-36,Home care and hospital-at-home,"Document arrival, identity and consent",Development evidence found,Blocked,Outside this sample
+CAP-36-04,DOM-36,Home care and hospital-at-home,Deliver and record home procedures,Development evidence found,Blocked,Outside this sample
+CAP-36-05,DOM-36,Home care and hospital-at-home,Coordinate remote monitoring and escalation,Development evidence found,Blocked,Outside this sample
+CAP-36-06,DOM-36,Home care and hospital-at-home,Transfer to higher-acuity care,Development evidence found,Blocked,Outside this sample
+CAP-37-01,DOM-37,Nurse marketplace and independent workforce,Onboard and credential independent workers,Development evidence found,Blocked,Outside this sample
+CAP-37-02,DOM-37,Nurse marketplace and independent workforce,Publish and validate service requests,Development evidence found,Blocked,Outside this sample
+CAP-37-03,DOM-37,Nurse marketplace and independent workforce,Match and reserve an eligible worker,Development evidence found,Blocked,Outside this sample
+CAP-37-04,DOM-37,Nurse marketplace and independent workforce,Handle cancellations and substitutions,Development evidence found,Blocked,Outside this sample
+CAP-37-05,DOM-37,Nurse marketplace and independent workforce,Manage worker safety and incidents,Development evidence found,Blocked,Outside this sample
+CAP-37-06,DOM-37,Nurse marketplace and independent workforce,Settle work and resolve disputes,Development evidence found,Blocked,Outside this sample
+CAP-38-01,DOM-38,Telemedicine and asynchronous consultation,Schedule eligible remote consultations,Development evidence found,Blocked,Outside this sample
+CAP-38-02,DOM-38,Telemedicine and asynchronous consultation,Run waiting rooms and identity checks,Development evidence found,Blocked,Outside this sample
+CAP-38-03,DOM-38,Telemedicine and asynchronous consultation,Provide video/audio and interpreter access,Development evidence found,Blocked,Outside this sample
+CAP-38-04,DOM-38,Telemedicine and asynchronous consultation,Manage consented recording/transcription,Development evidence found,Blocked,Outside this sample
+CAP-38-05,DOM-38,Telemedicine and asynchronous consultation,Support asynchronous clinical review,Development evidence found,Blocked,Outside this sample
+CAP-38-06,DOM-38,Telemedicine and asynchronous consultation,Recover interrupted sessions,Development evidence found,Blocked,Outside this sample
+CAP-39-01,DOM-39,"Doctor pages, discovery and reputation",Publish verified professional profiles,Development evidence found,Blocked,Outside this sample
+CAP-39-02,DOM-39,"Doctor pages, discovery and reputation",Present services and real availability,Included in an earlier build,Blocked,Outside this sample
+CAP-39-03,DOM-39,"Doctor pages, discovery and reputation",Manage custom domains and templates,Development evidence found,Blocked,Outside this sample
+CAP-39-04,DOM-39,"Doctor pages, discovery and reputation",Moderate reviews and complaints,Development evidence found,Blocked,Outside this sample
+CAP-39-05,DOM-39,"Doctor pages, discovery and reputation",Manage professional content and consent,Development evidence found,Blocked,Outside this sample
+CAP-39-06,DOM-39,"Doctor pages, discovery and reputation",Withdraw or update public eligibility,Development evidence found,Blocked,Outside this sample
+CAP-40-01,DOM-40,"Patient, family and personal health workspace","View records, results and pending work",Included in an earlier build,Blocked,Outside this sample
+CAP-40-02,DOM-40,"Patient, family and personal health workspace","Manage appointments, tasks and reminders",Development evidence found,Blocked,Outside this sample
+CAP-40-03,DOM-40,"Patient, family and personal health workspace",Upload patient-reported data,Development evidence found,Blocked,Outside this sample
+CAP-40-04,DOM-40,"Patient, family and personal health workspace",Communicate with the care team,Development evidence found,Blocked,Outside this sample
+CAP-40-05,DOM-40,"Patient, family and personal health workspace",Manage payments and assistance,Development evidence found,Blocked,Outside this sample
+CAP-40-06,DOM-40,"Patient, family and personal health workspace",Export and review access history,Included in an earlier build,Blocked,Outside this sample
+CAP-41-01,DOM-41,"Chronic care, prevention and population health",Maintain disease registries and panels,Development evidence found,Blocked,Outside this sample
+CAP-41-02,DOM-41,"Chronic care, prevention and population health",Run screening and recall programs,Development evidence found,Blocked,Outside this sample
+CAP-41-03,DOM-41,"Chronic care, prevention and population health",Coordinate chronic-care goals,Development evidence found,Blocked,Outside this sample
+CAP-41-04,DOM-41,"Chronic care, prevention and population health",Manage immunization programs,Development evidence found,Blocked,Outside this sample
+CAP-41-05,DOM-41,"Chronic care, prevention and population health",Evaluate population risks and gaps,Development evidence found,Blocked,Outside this sample
+CAP-41-06,DOM-41,"Chronic care, prevention and population health",Coordinate social determinants and support,Development evidence found,Blocked,Outside this sample
+CAP-42-01,DOM-42,Infection prevention and public health,Track isolation and exposure events,Development evidence found,Blocked,Outside this sample
+CAP-42-02,DOM-42,Infection prevention and public health,Manage notifiable-disease reporting,Development evidence found,Blocked,Outside this sample
+CAP-42-03,DOM-42,Infection prevention and public health,Investigate outbreaks and contacts,Development evidence found,Blocked,Outside this sample
+CAP-42-04,DOM-42,Infection prevention and public health,Monitor healthcare-associated infection,Included in an earlier build,Blocked,Outside this sample
+CAP-42-05,DOM-42,Infection prevention and public health,Coordinate antimicrobial surveillance,Development evidence found,Blocked,Outside this sample
+CAP-42-06,DOM-42,Infection prevention and public health,Manage staff exposure and occupational follow-up,Development evidence found,Blocked,Outside this sample
+CAP-43-01,DOM-43,Blood bank and transfusion medicine,Register donors and eligibility review,Development evidence found,Blocked,Outside this sample
+CAP-43-02,DOM-43,Blood bank and transfusion medicine,Track collection and components,Implementation unverified,Blocked,Outside this sample
+CAP-43-03,DOM-43,Blood bank and transfusion medicine,Reserve and check compatibility,Implementation unverified,Blocked,Outside this sample
+CAP-43-04,DOM-43,Blood bank and transfusion medicine,Issue and administer components,Development evidence found,Blocked,Outside this sample
+CAP-43-05,DOM-43,Blood bank and transfusion medicine,Document reactions and investigations,Development evidence found,Blocked,Outside this sample
+CAP-43-06,DOM-43,Blood bank and transfusion medicine,"Recall, return and discard products",Development evidence found,Blocked,Outside this sample
+CAP-44-01,DOM-44,"Transplantation, tissue and organ donation",Record donor consent and eligibility,Development evidence found,Blocked,Outside this sample
+CAP-44-02,DOM-44,"Transplantation, tissue and organ donation",Coordinate recipient evaluation and listing,Implementation unverified,Blocked,Outside this sample
+CAP-44-03,DOM-44,"Transplantation, tissue and organ donation",Track matching/allocation decisions,Implementation unverified,Blocked,Outside this sample
+CAP-44-04,DOM-44,"Transplantation, tissue and organ donation",Manage retrieval and transport custody,Development evidence found,Blocked,Outside this sample
+CAP-44-05,DOM-44,"Transplantation, tissue and organ donation",Coordinate transplant procedures and follow-up,Development evidence found,Blocked,Outside this sample
+CAP-44-06,DOM-44,"Transplantation, tissue and organ donation",Trace adverse events and product recalls,Development evidence found,Blocked,Outside this sample
+CAP-45-01,DOM-45,"Genomics, rare disease and precision medicine",Order and consent genetic testing,Development evidence found,Accepted,Outside this sample
+CAP-45-02,DOM-45,"Genomics, rare disease and precision medicine",Store genomic result references and provenance,Development evidence found,Accepted,Outside this sample
+CAP-45-03,DOM-45,"Genomics, rare disease and precision medicine",Interpret and reclassify findings,Development evidence found,Accepted,Outside this sample
+CAP-45-04,DOM-45,"Genomics, rare disease and precision medicine",Coordinate rare-disease pathways,Implementation unverified,Accepted,Outside this sample
+CAP-45-05,DOM-45,"Genomics, rare disease and precision medicine",Support pharmacogenomic review,Implementation unverified,Accepted,Outside this sample
+CAP-45-06,DOM-45,"Genomics, rare disease and precision medicine",Manage family/cascade testing permissions,Development evidence found,Accepted,Outside this sample
+CAP-46-01,DOM-46,"Clinical research, biobanks and learning systems",Assess study feasibility with approved data,Development evidence found,Accepted,Outside this sample
+CAP-46-02,DOM-46,"Clinical research, biobanks and learning systems",Recruit and consent participants,Development evidence found,Accepted,Outside this sample
+CAP-46-03,DOM-46,"Clinical research, biobanks and learning systems",Manage study visits and investigational products,Development evidence found,Accepted,Outside this sample
+CAP-46-04,DOM-46,"Clinical research, biobanks and learning systems",Capture research outcomes and adverse events,Implementation unverified,Accepted,Outside this sample
+CAP-46-05,DOM-46,"Clinical research, biobanks and learning systems",Track biobank samples and permitted uses,Development evidence found,Accepted,Outside this sample
+CAP-46-06,DOM-46,"Clinical research, biobanks and learning systems",Enable governed secondary analysis,Implementation unverified,Accepted,Outside this sample
+CAP-47-01,DOM-47,"Insurance, public programs and revenue cycle",Verify coverage and benefit eligibility,Included in an earlier build,Accepted,Outside this sample
+CAP-47-02,DOM-47,"Insurance, public programs and revenue cycle",Request and track preauthorization,Development evidence found,Accepted,Outside this sample
+CAP-47-03,DOM-47,"Insurance, public programs and revenue cycle",Code and assemble claims,Development evidence found,Accepted,Outside this sample
+CAP-47-04,DOM-47,"Insurance, public programs and revenue cycle","Submit, reconcile and correct claims",Development evidence found,Accepted,Outside this sample
+CAP-47-05,DOM-47,"Insurance, public programs and revenue cycle",Manage denials and appeals,Implementation unverified,Accepted,Outside this sample
+CAP-47-06,DOM-47,"Insurance, public programs and revenue cycle",Administer bundled/capitated programs,Development evidence found,Accepted,Outside this sample
+CAP-48-01,DOM-48,"Billing, cash, ledger and settlement","Manage contracts, prices and estimates",Partially assembled,Accepted,Outside this sample
+CAP-48-02,DOM-48,"Billing, cash, ledger and settlement",Post invoices and financial events,Partially assembled,Accepted,Outside this sample
+CAP-48-03,DOM-48,"Billing, cash, ledger and settlement",Collect and reconcile payments,Partially assembled,Accepted,Outside this sample
+CAP-48-04,DOM-48,"Billing, cash, ledger and settlement",Process refunds and chargebacks,Development evidence found,Accepted,Outside this sample
+CAP-48-05,DOM-48,"Billing, cash, ledger and settlement","Manage discounts, assistance and debt",Included in an earlier build,Accepted,Outside this sample
+CAP-48-06,DOM-48,"Billing, cash, ledger and settlement",Calculate staff/contractor compensation,Implementation unverified,Accepted,Outside this sample
+CAP-49-01,DOM-49,"Pharmacy supply, warehouses and procurement","Maintain items, units and stock locations",Included in an earlier build,Accepted,Outside this sample
+CAP-49-02,DOM-49,"Pharmacy supply, warehouses and procurement",Receive and quarantine batches,Included in an earlier build,Accepted,Outside this sample
+CAP-49-03,DOM-49,"Pharmacy supply, warehouses and procurement","Transfer, consume and reconcile inventory",Included in an earlier build,Accepted,Outside this sample
+CAP-49-04,DOM-49,"Pharmacy supply, warehouses and procurement",Forecast and reorder supplies,Included in an earlier build,Accepted,Outside this sample
+CAP-49-05,DOM-49,"Pharmacy supply, warehouses and procurement",Manage procurement and tenders,Development evidence found,Accepted,Outside this sample
+CAP-49-06,DOM-49,"Pharmacy supply, warehouses and procurement",Recall or dispose stock,Included in an earlier build,Accepted,Outside this sample
+CAP-50-01,DOM-50,"Facilities, equipment and hospital logistics",Register equipment and maintenance,Development evidence found,Accepted,Outside this sample
+CAP-50-02,DOM-50,"Facilities, equipment and hospital logistics",Schedule preventive maintenance,Development evidence found,Accepted,Outside this sample
+CAP-50-03,DOM-50,"Facilities, equipment and hospital logistics",Manage sterilization and reusable sets,Development evidence found,Accepted,Outside this sample
+CAP-50-04,DOM-50,"Facilities, equipment and hospital logistics",Coordinate housekeeping and waste,Development evidence found,Accepted,Outside this sample
+CAP-50-05,DOM-50,"Facilities, equipment and hospital logistics","Manage catering, transport and belongings",Included in an earlier build,Accepted,Outside this sample
+CAP-50-06,DOM-50,"Facilities, equipment and hospital logistics",Monitor utility and environmental incidents,Implementation unverified,Accepted,Outside this sample
+CAP-51-01,DOM-51,"Human resources, workforce and learning",Maintain contracts and employment records,Development evidence found,Accepted,Outside this sample
+CAP-51-02,DOM-51,"Human resources, workforce and learning",Plan rosters and on-call coverage,Partially assembled,Accepted,Outside this sample
+CAP-51-03,DOM-51,"Human resources, workforce and learning","Manage leave, substitutions and timesheets",Partially assembled,Accepted,Outside this sample
+CAP-51-04,DOM-51,"Human resources, workforce and learning",Track qualifications and training,Partially assembled,Accepted,Outside this sample
+CAP-51-05,DOM-51,"Human resources, workforce and learning",Support recruitment and onboarding,Development evidence found,Accepted,Outside this sample
+CAP-51-06,DOM-51,"Human resources, workforce and learning",Manage performance and occupational support,Implementation unverified,Accepted,Outside this sample
+CAP-52-01,DOM-52,"Quality, safety, complaints and accreditation",Report clinical and operational incidents,Development evidence found,Accepted,Outside this sample
+CAP-52-02,DOM-52,"Quality, safety, complaints and accreditation",Investigate causes and corrective actions,Development evidence found,Accepted,Outside this sample
+CAP-52-03,DOM-52,"Quality, safety, complaints and accreditation",Manage complaints and patient feedback,Development evidence found,Accepted,Outside this sample
+CAP-52-04,DOM-52,"Quality, safety, complaints and accreditation",Maintain policy and accreditation evidence,Development evidence found,Accepted,Outside this sample
+CAP-52-05,DOM-52,"Quality, safety, complaints and accreditation",Measure quality and outcomes,Development evidence found,Accepted,Outside this sample
+CAP-52-06,DOM-52,"Quality, safety, complaints and accreditation",Track recalls and safety communications,Development evidence found,Accepted,Outside this sample
+CAP-53-01,DOM-53,"Government, regulators and health-system management",Manage statutory reporting adapters,Development evidence found,Accepted,Outside this sample
+CAP-53-02,DOM-53,"Government, regulators and health-system management",Administer public programs and quotas,Development evidence found,Accepted,Outside this sample
+CAP-53-03,DOM-53,"Government, regulators and health-system management",Coordinate regional capacity and referral networks,Implementation unverified,Accepted,Outside this sample
+CAP-53-04,DOM-53,"Government, regulators and health-system management",Audit funding and utilization,Development evidence found,Accepted,Outside this sample
+CAP-53-05,DOM-53,"Government, regulators and health-system management",Support cross-border health exchange,Development evidence found,Accepted,Outside this sample
+CAP-53-06,DOM-53,"Government, regulators and health-system management",Publish population statistics,Development evidence found,Accepted,Outside this sample
+CAP-54-01,DOM-54,"Data platform, analytics and interoperability",Maintain API/resource profiles and mappings,Development evidence found,Accepted,Outside this sample
+CAP-54-02,DOM-54,"Data platform, analytics and interoperability",Ingest events and reconcile duplicates,Implementation unverified,Accepted,Outside this sample
+CAP-54-03,DOM-54,"Data platform, analytics and interoperability",Provide governed analytics and dashboards,Implementation unverified,Accepted,Outside this sample
+CAP-54-04,DOM-54,"Data platform, analytics and interoperability",Manage data quality and provenance,Development evidence found,Accepted,Outside this sample
+CAP-54-05,DOM-54,"Data platform, analytics and interoperability",Export and migrate tenant data,Development evidence found,Accepted,Outside this sample
+CAP-54-06,DOM-54,"Data platform, analytics and interoperability",Operate terminology and reference services,Implementation unverified,Accepted,Outside this sample
+CAP-55-01,DOM-55,AI for patients and clinical teams,Draft visit documentation from authorized sources,Development evidence found,Accepted,Outside this sample
+CAP-55-02,DOM-55,AI for patients and clinical teams,Summarize longitudinal records with citations,Implementation unverified,Accepted,Outside this sample
+CAP-55-03,DOM-55,AI for patients and clinical teams,Explain terminology and prepare questions,Implementation unverified,Accepted,Outside this sample
+CAP-55-04,DOM-55,AI for patients and clinical teams,Extract structured fields from documents,Implementation unverified,Accepted,Outside this sample
+CAP-55-05,DOM-55,AI for patients and clinical teams,Assist scheduling and administrative communication,Implementation unverified,Accepted,Outside this sample
+CAP-55-06,DOM-55,AI for patients and clinical teams,Evaluate decision-support candidates,Implementation unverified,Accepted,Outside this sample
+CAP-56-01,DOM-56,AI for institution and platform owners,Summarize operational bottlenecks,Development evidence found,Accepted,Outside this sample
+CAP-56-02,DOM-56,AI for institution and platform owners,"Forecast demand, stock and capacity",Implementation unverified,Accepted,Outside this sample
+CAP-56-03,DOM-56,AI for institution and platform owners,Assist clinic configuration and onboarding,Implementation unverified,Accepted,Outside this sample
+CAP-56-04,DOM-56,AI for institution and platform owners,Investigate incidents and support patterns,Implementation unverified,Accepted,Outside this sample
+CAP-56-05,DOM-56,AI for institution and platform owners,Optimize model routing and spend,Development evidence found,Accepted,Outside this sample
+CAP-56-06,DOM-56,AI for institution and platform owners,Detect adoption gaps and propose improvements,Implementation unverified,Accepted,Outside this sample
+CAP-57-01,DOM-57,"Configuration, extensions and tenant lifecycle",Create and compare institution profiles,Development evidence found,Accepted,Outside this sample
+CAP-57-02,DOM-57,"Configuration, extensions and tenant lifecycle","Enable, drain or retire subfeatures",Implementation unverified,Accepted,Outside this sample
+CAP-57-03,DOM-57,"Configuration, extensions and tenant lifecycle",Version and promote configuration,Implementation unverified,Accepted,Outside this sample
+CAP-57-04,DOM-57,"Configuration, extensions and tenant lifecycle",Install and retire extensions,Development evidence found,Accepted,Outside this sample
+CAP-57-05,DOM-57,"Configuration, extensions and tenant lifecycle",Provision and offboard institutions,Development evidence found,Accepted,Outside this sample
+CAP-57-06,DOM-57,"Configuration, extensions and tenant lifecycle",Manage commercial entitlements separately,Implementation unverified,Accepted,Outside this sample
+CAP-58-01,DOM-58,"Platform reliability, security and service operations",Monitor service health and clinical workflow failure,Implementation unverified,Accepted,Outside this sample
+CAP-58-02,DOM-58,"Platform reliability, security and service operations",Restore data and services,Development evidence found,Accepted,Outside this sample
+CAP-58-03,DOM-58,"Platform reliability, security and service operations",Contain security incidents and rotate credentials,Implementation unverified,Accepted,Outside this sample
+CAP-58-04,DOM-58,"Platform reliability, security and service operations",Operate staged releases and migrations,Implementation unverified,Accepted,Outside this sample
+CAP-58-05,DOM-58,"Platform reliability, security and service operations","Manage audit, retention and legal holds",Development evidence found,Accepted,Outside this sample
+CAP-58-06,DOM-58,"Platform reliability, security and service operations",Provide support and downtime operations,Development evidence found,Accepted,Outside this sample
+CAP-59-01,DOM-59,Commercial operations and ecosystem partnerships,Define and simulate pricing/entitlements,Development evidence found,Accepted,Outside this sample
+CAP-59-02,DOM-59,Commercial operations and ecosystem partnerships,Track service economics and funding,Development evidence found,Accepted,Outside this sample
+CAP-59-03,DOM-59,Commercial operations and ecosystem partnerships,Manage partner onboarding and contracts,Development evidence found,Accepted,Outside this sample
+CAP-59-04,DOM-59,Commercial operations and ecosystem partnerships,Operate optional marketplace commissions,Development evidence found,Accepted,Outside this sample
+CAP-59-05,DOM-59,Commercial operations and ecosystem partnerships,Evaluate public-sector procurement opportunities,Development evidence found,Accepted,Outside this sample
+CAP-59-06,DOM-59,Commercial operations and ecosystem partnerships,Plan international expansion,Development evidence found,Accepted,Outside this sample
+CAP-60-01,DOM-60,Ten-year extensions and emerging care models,Evaluate regulated digital therapeutics,Development evidence found,Accepted,Outside this sample
+CAP-60-02,DOM-60,Ten-year extensions and emerging care models,Integrate robotics and advanced devices,Implementation unverified,Accepted,Outside this sample
+CAP-60-03,DOM-60,Ten-year extensions and emerging care models,Explore federated analytics and learning,Development evidence found,Accepted,Outside this sample
+CAP-60-04,DOM-60,Ten-year extensions and emerging care models,Assess personalized simulation/digital twins,Implementation unverified,Accepted,Outside this sample
+CAP-60-05,DOM-60,Ten-year extensions and emerging care models,Support novel therapies and care settings,Implementation unverified,Accepted,Outside this sample
+CAP-60-06,DOM-60,Ten-year extensions and emerging care models,Review horizon changes periodically,Implementation unverified,Accepted,Outside this sample
+CAP-61-01,DOM-61,"Endocrinology, rheumatology and multisystem care",Coordinate diabetes and metabolic care,Development evidence found,Accepted,Outside this sample
+CAP-61-02,DOM-61,"Endocrinology, rheumatology and multisystem care",Manage endocrine testing pathways,Development evidence found,Accepted,Outside this sample
+CAP-61-03,DOM-61,"Endocrinology, rheumatology and multisystem care",Track inflammatory disease activity,Implementation unverified,Accepted,Outside this sample
+CAP-61-04,DOM-61,"Endocrinology, rheumatology and multisystem care",Coordinate immune-modifying treatment monitoring,Implementation unverified,Accepted,Outside this sample
+CAP-61-05,DOM-61,"Endocrinology, rheumatology and multisystem care",Manage complex multimorbidity plans,Development evidence found,Accepted,Outside this sample
+CAP-61-06,DOM-61,"Endocrinology, rheumatology and multisystem care",Coordinate rare multisystem consultations,Implementation unverified,Accepted,Outside this sample
+CAP-62-01,DOM-62,"Occupational, school, sports and travel medicine",Coordinate employee health surveillance,Development evidence found,Accepted,Outside this sample
+CAP-62-02,DOM-62,"Occupational, school, sports and travel medicine",Manage school health and safeguarding referrals,Development evidence found,Accepted,Outside this sample
+CAP-62-03,DOM-62,"Occupational, school, sports and travel medicine",Perform fitness/driver/work assessments,Implementation unverified,Accepted,Outside this sample
+CAP-62-04,DOM-62,"Occupational, school, sports and travel medicine",Coordinate sports injury and return-to-activity plans,Implementation unverified,Accepted,Outside this sample
+CAP-62-05,DOM-62,"Occupational, school, sports and travel medicine",Manage travel health and immunization review,Development evidence found,Accepted,Outside this sample
+CAP-62-06,DOM-62,"Occupational, school, sports and travel medicine",Handle environmental exposure programs,Development evidence found,Accepted,Outside this sample
+CAP-63-01,DOM-63,Accessible care and vulnerable populations,Support refugees and cross-border patients,Development evidence found,Accepted,Outside this sample
+CAP-63-02,DOM-63,Accessible care and vulnerable populations,Coordinate care for unhoused/mobile patients,Development evidence found,Accepted,Outside this sample
+CAP-63-03,DOM-63,Accessible care and vulnerable populations,Manage disability access and communication needs,Implementation unverified,Accepted,Outside this sample
+CAP-63-04,DOM-63,Accessible care and vulnerable populations,Support safeguarding and protected contacts,Development evidence found,Accepted,Outside this sample
+CAP-63-05,DOM-63,Accessible care and vulnerable populations,Coordinate care in restricted-access settings,Implementation unverified,Accepted,Outside this sample
+CAP-63-06,DOM-63,Accessible care and vulnerable populations,Provide assisted and low-connectivity access,Implementation unverified,Accepted,Outside this sample
+CAP-64-01,DOM-64,"Mortuary, forensic and medico-legal workflows",Verify and register death-related events,Development evidence found,Accepted,Outside this sample
+CAP-64-02,DOM-64,"Mortuary, forensic and medico-legal workflows",Manage mortuary custody and identification,Development evidence found,Accepted,Outside this sample
+CAP-64-03,DOM-64,"Mortuary, forensic and medico-legal workflows",Track belongings and authorized release,Development evidence found,Accepted,Outside this sample
+CAP-64-04,DOM-64,"Mortuary, forensic and medico-legal workflows",Coordinate postmortem and pathology work,Development evidence found,Accepted,Outside this sample
+CAP-64-05,DOM-64,"Mortuary, forensic and medico-legal workflows",Preserve forensic evidence and legal holds,Development evidence found,Accepted,Outside this sample
+CAP-64-06,DOM-64,"Mortuary, forensic and medico-legal workflows",Issue permitted certificates and disclosures,Implementation unverified,Accepted,Outside this sample
+CAP-65-01,DOM-65,Clinical communications and collaboration,Route clinical messages and shared inbox work,Implementation unverified,Accepted,Outside this sample
+CAP-65-02,DOM-65,Clinical communications and collaboration,Manage closed-loop result notifications,Implementation unverified,Accepted,Outside this sample
+CAP-65-03,DOM-65,Clinical communications and collaboration,Provide multilingual communication support,Development evidence found,Accepted,Outside this sample
+CAP-65-04,DOM-65,Clinical communications and collaboration,Coordinate cross-organization discussions,Implementation unverified,Accepted,Outside this sample
+CAP-65-05,DOM-65,Clinical communications and collaboration,Manage notification preferences and templates,Implementation unverified,Accepted,Outside this sample
+CAP-65-06,DOM-65,Clinical communications and collaboration,Retain relevant communications as records,Implementation unverified,Accepted,Outside this sample
+CAP-66-01,DOM-66,Community pharmacy and medication access,Receive and validate dispensing requests,Development evidence found,Accepted,Outside this sample
+CAP-66-02,DOM-66,Community pharmacy and medication access,Manage partial dispensing and substitutions,Development evidence found,Accepted,Outside this sample
+CAP-66-03,DOM-66,Community pharmacy and medication access,Coordinate medication delivery and collection,Development evidence found,Accepted,Outside this sample
+CAP-66-04,DOM-66,Community pharmacy and medication access,Document pharmacist review and counseling,Development evidence found,Accepted,Outside this sample
+CAP-66-05,DOM-66,Community pharmacy and medication access,Manage medication assistance and availability,Development evidence found,Accepted,Outside this sample
+CAP-66-06,DOM-66,Community pharmacy and medication access,"Reconcile recalls, returns and adverse reports",Implementation unverified,Accepted,Outside this sample

@@ -1,0 +1,16 @@
+@startuml
+title Build and release
+|Development|
+start
+|Development|
+:Combine two reviewed branches\n[Tested on a test build];
+|Integration|
+:Test the journey across roles\n[Tested on a test build];
+|Independent reviewer|
+:Review the combined build\n[Unverified];
+|Release team|
+:Run the standard release checks\n[Release blocked];
+|User|
+:Repeat the journey on the public release\n[Unverified];
+stop
+@enduml

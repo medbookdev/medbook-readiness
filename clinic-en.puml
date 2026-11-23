@@ -1,0 +1,19 @@
+@startuml
+title Front desk and operations
+|Front desk|
+start
+switch (Choose a facility operation)
+case (Front desk)
+|Front desk|
+:Offer a newly available slot\n[Tested on a test build];
+case (Staffing)
+|Manager|
+:Manage staff and service requests\n[Tested on a test build];
+case (Purchasing and finance)
+|Purchaser|
+:Review a purchase and commission\n[Tested on a test build];
+|Warehouse and accounting|
+:Reconcile delivery, payment and stock\n[Partial implementation];
+endswitch
+stop
+@enduml

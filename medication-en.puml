@@ -1,0 +1,16 @@
+@startuml
+title Prescriptions and pharmacies
+|Patient|
+start
+|Patient|
+:Find a medicine and a pharmacy\n[Live on the demo];
+|Physician|
+:Reconcile prescriptions\n[Partial implementation];
+|Physician|
+:Assess a conflict or alternative\n[Unverified];
+|Pharmacy|
+:Confirm stock and price\n[Unverified];
+|Pharmacist|
+:Dispense the prescribed medicine\n[Unverified];
+stop
+@enduml

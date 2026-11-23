@@ -1,0 +1,25 @@
+.headwrap .language {
+  color: var(--green);
+  font-size: 15px;
+  font-weight: 650;
+  text-underline-offset: .2em;
+}
+.headwrap .download { white-space: nowrap; }
+@media (min-width: 561px) and (max-width: 840px) {
+  .headwrap { flex-wrap: wrap; column-gap: 18px; row-gap: 10px; }
+  .headwrap nav { order: 1; flex-basis: 100%; margin: 0; }
+  .headwrap .language { margin-left: auto; }
+}
+@media (max-width: 560px) {
+  .headwrap { gap: 10px; flex-wrap: wrap; }
+  .headwrap .language { margin-left: auto; }
+  .headwrap .download { margin-left: 0; padding: 8px 9px; }
+  .headwrap nav {
+    display: flex;
+    order: 1;
+    flex-basis: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0;
+  }
+}

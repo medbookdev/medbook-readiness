@@ -1,0 +1,16 @@
+@startuml
+title Medbook assistant
+|User|
+start
+|User|
+:Ask a question under an assigned role\n[Tested on a test build];
+|AI gateway|
+:Select sources and tools\n[Check failed];
+|AI gateway|
+:Check access, memory and cache\n[Check failed];
+|Model|
+:Answer in the application\n[Disabled];
+|Team|
+:Assess answer quality by role\n[Unverified];
+stop
+@enduml
