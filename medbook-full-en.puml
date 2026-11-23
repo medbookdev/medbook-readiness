@@ -67,8 +67,8 @@ case (Manage the schedule)
 |Physician|
 :Change appointment hours\n[Tested on a test build];
 case (Conduct a visit)
-|Physician|
-:Document the visit and refer\n[Partial implementation];
+|Two physicians|
+:Hand off an internal referral\n[Tested on a test build];
 |Patient|
 :Read the visit summary\n[Unverified];
 case (Video consultation)

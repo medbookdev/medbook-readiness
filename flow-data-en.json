@@ -70,10 +70,10 @@
           "proof": "A physician closed one clinic to new bookings. The existing patient and reception saw a notice. Another patient could still book at the second clinic."
         },
         {
-          "role": "Physician",
-          "label": "Document the visit and refer",
-          "state": "part",
-          "proof": "In the private test the treating physician saved and confirmed a note. The confirmed version became read-only. Referral and diagnostic orders are still separate."
+          "role": "Two physicians",
+          "label": "Hand off an internal referral",
+          "state": "stand",
+          "proof": "A second physician confirmed receipt. The treating physician saw it in the original visit. Revoking clinic access removed the referral from the recipient’s view."
         },
         {
           "role": "Physician and patient",
