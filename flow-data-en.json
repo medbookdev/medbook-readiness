@@ -73,7 +73,7 @@
           "role": "Physician",
           "label": "Document the visit and refer",
           "state": "part",
-          "proof": "Source code exists for structured notes, referrals and diagnostic orders. Their connection to a single encounter remains unverified."
+          "proof": "In the private test the treating physician saved and confirmed a note. The confirmed version became read-only. Referral and diagnostic orders are still separate."
         },
         {
           "role": "Physician and patient",
