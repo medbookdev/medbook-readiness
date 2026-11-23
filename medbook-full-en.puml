@@ -50,7 +50,7 @@ case (Open demo booking)
 |Physician|
 :Accept an assigned request\n[Tested on a test build];
 |Patient|
-:Read the outcome and book again\n[Tested on a test build];
+:Return to manage an appointment\n[Tested on a test build];
 endswitch
 stop
 @enduml

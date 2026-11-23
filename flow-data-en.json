@@ -31,9 +31,9 @@
         },
         {
           "role": "Patient",
-          "label": "Read the outcome and book again",
+          "label": "Return to manage an appointment",
           "state": "stand",
-          "proof": "The patient saw the actual visit times and booked at a second clinic. The new request had its own number. The first visit remained accessible."
+          "proof": "After signing in on another browser, the patient saw the decision and instructions, then cancelled. The clinic saw the cancellation and the time became available."
         }
       ],
       "spec": [
