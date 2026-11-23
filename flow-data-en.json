@@ -21,19 +21,19 @@
           "role": "Patient",
           "label": "Request an appointment",
           "state": "stand",
-          "proof": "On the combined test build, the server created a request for a test patient and returned HTTP 201."
+          "proof": "The backend saved the request. An administrator saw it as pending in the internal workspace."
         },
         {
           "role": "Physician",
           "label": "Accept an assigned request",
           "state": "stand",
-          "proof": "The physician accepted the request. A different specialist could not access it. Physician and staff sessions were separate."
+          "proof": "The assigned physician accepted the request. Another physician could not see it."
         },
         {
           "role": "Patient",
           "label": "Read the decision",
           "state": "stand",
-          "proof": "When the patient reopened the request, its status was “Accepted.” The physician inbox URL returned HTTP 404 on the public demo."
+          "proof": "The patient and administrator refreshed their screens. Both saw the same request marked Accepted. Both staff entry pages returned 404 on the public demo."
         }
       ],
       "spec": [
