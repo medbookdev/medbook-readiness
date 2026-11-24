@@ -255,7 +255,13 @@
           "proof": "In the practice clinic the physician proposed an investigation. Consent created one order. Declining created none."
         },
         {
-          "role": "Lab technician",
+          "role": "Laboratory employee",
+          "label": "Acknowledge the clinic order",
+          "state": "stand",
+          "proof": "An employee with clinic-specific access accepted the order. A stricter identity check removed it from the inbox. The patient and physician saw the acknowledgement."
+        },
+        {
+          "role": "Lab administrator",
           "label": "Register a specimen",
           "state": "stand",
           "proof": "After collection the patient and physician saw the date and status in their own workspaces. The label code stayed with the laboratory."
@@ -279,7 +285,8 @@
           0,
           1,
           2,
-          3
+          3,
+          4
         ]
       ]
     },

@@ -137,7 +137,9 @@ title Laboratory
 start
 |Physician and patient|
 :Order a test\n[Tested on a test build];
-|Lab technician|
+|Laboratory employee|
+:Acknowledge the clinic order\n[Tested on a test build];
+|Lab administrator|
 :Register a specimen\n[Tested on a test build];
 |Lab technician|
 :Review the worklist and result\n[Partial implementation];
