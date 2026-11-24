@@ -139,7 +139,7 @@ start
 :Order a test\n[Tested on a test build];
 |Laboratory employee|
 :Acknowledge the clinic order\n[Tested on a test build];
-|Lab administrator|
+|Laboratory employee|
 :Register a specimen\n[Tested on a test build];
 |Lab technician|
 :Review the worklist and result\n[Partial implementation];

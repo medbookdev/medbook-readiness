@@ -261,10 +261,10 @@
           "proof": "An employee with clinic-specific access accepted the order. A stricter identity check removed it from the inbox. The patient and physician saw the acknowledgement."
         },
         {
-          "role": "Lab administrator",
+          "role": "Laboratory employee",
           "label": "Register a specimen",
           "state": "stand",
-          "proof": "After collection the patient and physician saw the date and status in their own workspaces. The label code stayed with the laboratory."
+          "proof": "A clinic employee with collection permission records the specimen. The patient and physician see the time. Only the lab sees the label code."
         },
         {
           "role": "Lab technician",
