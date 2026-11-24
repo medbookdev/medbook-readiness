@@ -298,7 +298,7 @@
           "role": "Manager",
           "label": "Manage staff and service requests",
           "state": "stand",
-          "proof": "Six modules were assembled in one test environment. Sign-in, reading and writing were verified. A workflow across all six modules still awaits acceptance."
+          "proof": "The manager saw the clinic’s daily appointment counts alongside its staffing board. The totals matched reception after the visit ended. Withdrawing access removed the summary."
         },
         {
           "role": "Purchaser",
