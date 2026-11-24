@@ -83,9 +83,9 @@
         },
         {
           "role": "Patient",
-          "label": "Read the visit summary",
-          "state": "gap",
-          "proof": "A published journey from a physician’s signed note to a result the patient is authorized to read remains unverified."
+          "label": "Read the physician’s letter",
+          "state": "stand",
+          "proof": "After identity review, the patient allowed delivery and opened the physician’s letter in the same visit. Withdrawing consent closed access."
         }
       ],
       "spec": [
