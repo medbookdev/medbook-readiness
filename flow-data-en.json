@@ -84,8 +84,8 @@
         {
           "role": "Patient",
           "label": "Read the physician’s letter",
-          "state": "stand",
-          "proof": "The patient allowed delivery and followed the letter’s register entry to a pharmacy branch phone number."
+          "state": "part",
+          "proof": "The patient read the first letter. At the second visit, the clinic could not verify the same chart again. The second letter is unavailable."
         }
       ],
       "spec": [
