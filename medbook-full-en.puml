@@ -175,9 +175,9 @@ start
 |User|
 :Ask a question under an assigned role\n[Tested on a test build];
 |AI gateway|
-:Select sources and tools\n[Check failed];
+:Select sources and tools\n[Tested on a test build];
 |AI gateway|
-:Check access, memory and cache\n[Check failed];
+:Check access, memory and cache\n[Tested on a test build];
 |Model|
 :Answer in the application\n[Disabled];
 |Team|

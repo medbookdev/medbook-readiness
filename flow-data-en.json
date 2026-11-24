@@ -33,7 +33,7 @@
           "role": "Patient",
           "label": "Return to manage an appointment",
           "state": "stand",
-          "proof": "After moving clinics, the patient saw both physician confirmations and the transfer in one timeline. Another patient took the released slot from the waiting list."
+          "proof": "The patient booked a follow-up with the same physician from a completed visit. Both appointments stayed in the account. The physician and front desk received the new request."
         }
       ],
       "spec": [
@@ -353,14 +353,14 @@
         {
           "role": "AI gateway",
           "label": "Select sources and tools",
-          "state": "fail",
-          "proof": "The directory returned a source in a test interface. A separate source-integrity check failed in the gateway."
+          "state": "stand",
+          "proof": "The gateway identified answer sources, used a pinned document version and rejected a changed source."
         },
         {
           "role": "AI gateway",
           "label": "Check access, memory and cache",
-          "state": "fail",
-          "proof": "Checks still failed after changes to permissions and context, when switching facilities and when a test package was replaced."
+          "state": "stand",
+          "proof": "The private build passed checks for permission changes, moves between facilities, cache invalidation and isolation of saved preferences."
         },
         {
           "role": "Model",
@@ -372,7 +372,7 @@
           "role": "Team",
           "label": "Assess answer quality by role",
           "state": "gap",
-          "proof": "The application test build passed 30 of 30 checks, the browser passed 7 of 7 and the gateway passed 107 of 112. This suite made no calls to a live model."
+          "proof": "Two gateway suites on one build passed 112 of 112 and 155 of 155 checks. Answer quality with a live model still needs evaluation for each role."
         }
       ],
       "spec": [
