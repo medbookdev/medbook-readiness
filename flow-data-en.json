@@ -84,8 +84,8 @@
         {
           "role": "Patient",
           "label": "Read the physician’s letter",
-          "state": "part",
-          "proof": "The patient read the first letter. At the second visit, the clinic could not verify the same chart again. The second letter is unavailable."
+          "state": "stand",
+          "proof": "The patient read a letter after each visit. They withdrew consent for the second letter and could still read the first."
         }
       ],
       "spec": [
