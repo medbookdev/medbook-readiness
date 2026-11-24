@@ -85,7 +85,7 @@
           "role": "Patient",
           "label": "Read the physician’s letter",
           "state": "stand",
-          "proof": "After identity review, the patient allowed delivery and opened the physician’s letter in the same visit. Withdrawing consent closed access."
+          "proof": "The patient allowed delivery and followed the letter’s register entry to a pharmacy branch phone number."
         }
       ],
       "spec": [
