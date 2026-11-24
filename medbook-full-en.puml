@@ -133,12 +133,12 @@ stop
 @startuml medbook-lab
 skinparam shadowing false
 title Laboratory
-|Physician|
+|Physician and patient|
 start
-|Physician|
-:Order a test\n[Partial implementation];
+|Physician and patient|
+:Order a test\n[Tested on a test build];
 |Lab technician|
-:Register a specimen\n[Partial implementation];
+:Register a specimen\n[Tested on a test build];
 |Lab technician|
 :Review the worklist and result\n[Partial implementation];
 |Physician|

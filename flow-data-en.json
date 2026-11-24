@@ -249,16 +249,16 @@
       "goal": "Follow a test order through to delivery of its result to the treating physician.",
       "steps": [
         {
-          "role": "Physician",
+          "role": "Physician and patient",
           "label": "Order a test",
-          "state": "part",
-          "proof": "The review found a diagnostic order module. Its connection to the full laboratory journey on the demo remains unverified."
+          "state": "stand",
+          "proof": "In the practice clinic the physician proposed an investigation. Consent created one order. Declining created none."
         },
         {
           "role": "Lab technician",
           "label": "Register a specimen",
-          "state": "part",
-          "proof": "Source code exists for specimen collection. The active release lacks the main file at the path cited in the report."
+          "state": "stand",
+          "proof": "After collection the patient and physician saw the date and status in their own workspaces. The label code stayed with the laboratory."
         },
         {
           "role": "Lab technician",
