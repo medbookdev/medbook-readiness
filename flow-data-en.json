@@ -27,7 +27,7 @@
           "role": "Physician",
           "label": "Respond to a request",
           "state": "stand",
-          "proof": "The patient and front desk saw when the physician’s response target passed. After a refusal, the patient read the reason and chose a new time."
+          "proof": "The physician offered another available time. The patient accepted in their account and reception saw the new time on the same appointment."
         },
         {
           "role": "Patient",
@@ -223,7 +223,7 @@
           "role": "Pharmacy",
           "label": "Confirm stock and price",
           "state": "gap",
-          "proof": "The report found no verified feed of current stock and prices for a specific branch. The directory count measures branch locations only."
+          "proof": "The test build shows the branch phone alongside the registered pack. The pharmacy confirms stock and price by phone."
         },
         {
           "role": "Pharmacist",
