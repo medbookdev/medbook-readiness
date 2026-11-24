@@ -61,7 +61,7 @@
           "role": "Physician, patient and receptionist",
           "label": "Start and finish the booked visit",
           "state": "stand",
-          "proof": "The physician started and finished the booked visit. The patient and their clinic saw both changes. The other clinic saw no booking."
+          "proof": "One patient checked in, saw the visit start and saw it finish. On that same visit, the treating physician read the consultant’s result. Reception saw the closure."
         },
         {
           "role": "Physician",
@@ -290,9 +290,9 @@
       "steps": [
         {
           "role": "Front desk",
-          "label": "Receive bookings and schedule changes",
+          "label": "Check in for an in-person visit",
           "state": "stand",
-          "proof": "One phone booking reached its physician and front desk. When a patient moved an appointment, the same request appeared at the new clinic."
+          "proof": "The receptionist checked in the patient. The patient and booked physician saw the arrival time. The other clinic could not see the booking."
         },
         {
           "role": "Manager",

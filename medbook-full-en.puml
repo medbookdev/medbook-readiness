@@ -154,7 +154,7 @@ start
 switch (Choose a facility operation)
 case (Front desk)
 |Front desk|
-:Receive bookings and schedule changes\n[Tested on a test build];
+:Check in for an in-person visit\n[Tested on a test build];
 case (Staffing)
 |Manager|
 :Manage staff and service requests\n[Tested on a test build];
